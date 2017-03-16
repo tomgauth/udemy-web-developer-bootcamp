@@ -1,3 +1,29 @@
 body {
-  background-color: orange;
+  background-color: #cde9ff;
+}
+
+
+li {
+  border: 2px solid grey;
+}
+
+#special {
+  background: yellow;
+}
+
+.red-label {
+  background-color: red;
+}
+
+
+.blue-label {
+  background-color: blue;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.items {
+  padding: 50px;
 }
