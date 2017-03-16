@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form to Tatoeba</title>
+  </head>
+  <body>
+    <h1>Find a sentence in Tatoeba</h1>
+    <form action="http://tatoeba.org/fra/sentences/search?query" method="GET"><br>
+      <label for="Query">
+      <input id="Query" name="query" type="text" placeholder="query" required><br>
+      <label for="Origin language">
+      <input id="Origin language" name="from" type="text" maxlength="3" placeholder="ex:tur,ang..."><br>
+      <label for="Target language">
+        <select name="langage" id="Target language">
+          <option value="eng">English</option>
+          <option value="fra">French</option>
+          <option value="deu">German</option>
+          <option value="rus">Russian</option>
+          <option value="und">Unknown</option>
+        </select>
+      <button>Submit</button>
+    </form>
+
+  <h1>Register</h1>
+
+    <form action="" method="POST">
+      <label for="First Name" name="First Name"></label><br>
+      First Name
+      <input type="text" id="First Name" placeholder="John" required>
+      Last Name
+      <label for="Last Name"></label>
+      <input type="text" id="Last Name" placeholder="Smith" required><br>
+      <label for="gender" required></label>
+        <input type="radio" name="gender" value="Male" checked> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+      </select><br>
+      Email:
+      <label for="Email"></label>
+      <input type="email" id="Email" placeholder="your email">
+      Password:
+      <label for="Password"></label>
+      <input type="Password" id="Password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters"><br>
+      Birthday:
+      <label for="Birthday"></label>
+      <input type="date" name="Birthday"><br>
+      I agree to the terms and conditions
+      <label for="conditions"></label>
+      <input id="condition" type="checkbox" required>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
