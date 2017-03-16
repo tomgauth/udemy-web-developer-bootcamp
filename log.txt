@@ -1,0 +1,25 @@
+16/03/2017 - 10:50AM
+
+Ex09 Selector Exercise Starter
+
+! Not able to add a "border: 3px solid red;" to input in 'Make all inputs have a 3px red border'
+  ? Is the border CSS working
+    - test on another element
+    X It works
+  ? Google an example with input class
+    - Add width and padding
+    X Nothing is happening
+  ? Is there a rule over-writing this one?
+    - There is actually build-in default rules for input but it doesn't overwrite.
+    - The Css code is present in the editor
+  ? Google again, but more specific about checkboxes
+    - It seems that it's not really relevant to edit the checkbox. Hoomans on Stackoverflow advise to use JS or to add a div before the checkbox.
+    X That's not the way I want to do it, because I trust the course.
+  ? Maybe it's a mistake in the exercise. Let's check the previous disclamer about errors
+    - "Hi Everyone!
+In the next lecture you'll be asked to "Make all inputs have a 3px red border", this should say "Make all inputs (except the checkboxes) have a 3px red border". Checkbox elements cannot be styled directly. If you're wondering how to style them, you can checkout this StackOverflow thread."
+$ So I can't edit the f*cking checkbox, it was written as a disclamer before the exercise.
+* Note to myself: READ THE TEXT. WHATEVER IT IS ABOUT.
+
+
+
