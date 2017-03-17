@@ -1,0 +1,34 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 20px solid #afafaf;
+  width: 50%;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.quote {
+  border-left: 4px solid #afafaf;
+  padding-left: 10px;
+}
+
+.article {
+  border-bottom: 2px solid #afafaf;
+  margin: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  color: #6dd5f2;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+
