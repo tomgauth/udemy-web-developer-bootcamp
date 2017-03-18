@@ -1,15 +1,12 @@
 body {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.content {
   font-family: 'Source Sans Pro', sans-serif;
   border: 20px solid #afafaf;
-  width: 50%;
+  width: 80%;
+  max-width: 700px;
   margin-top: 20px;
-  margin: auto;
+  margin: 20px auto;
 }
+
 
 .quote {
   border-left: 4px solid #afafaf;
@@ -17,17 +14,21 @@ body {
 }
 
 .article {
-  border-bottom: 2px solid #afafaf;
   margin: 20px;
+}
+
+hr {
+  border-top: 1px dashed #8c8b8b;
 }
 
 h1 {
   font-weight: bold;
+  font-size: 2.0rem;
 }
 
 h3 {
   color: #6dd5f2;
-  letter-spacing: 3px;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
