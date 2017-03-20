@@ -1,0 +1,44 @@
+body {
+  padding-top: 70px;
+  background: url(http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  color: #4885b5;
+}
+
+.navbar-inverse {
+  color: #4885b5;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #4885b5;
+}
+
+#content {
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 35%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+              0px 8px 13px rgba(0,0,0,0.1),
+              0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
+}
+
+html {
+  height: 100%;
+}
+
+hr {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+}
