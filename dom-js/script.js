@@ -13,3 +13,20 @@ var isBlue = false;
 //   isBlue = !isBlue;
 // }, 1000);
 
+var button = document.querySelectorAll(".btn")[1];
+var isActive = false;
+
+// button.addEventListener("click", function(){
+//   if (isActive){
+//     button.style.color = "red";
+//   } else {
+//     button.style.color = "black";
+//   }
+//   isActive = !isActive;
+// })
+
+
+
+button.addEventListener("click", function(){
+  document.body.classList.toggle("purple");
+})
