@@ -1,0 +1,12 @@
+.padded {
+  padding: 30px;
+}
+
+.selected {
+  color: green;
+}
+
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
