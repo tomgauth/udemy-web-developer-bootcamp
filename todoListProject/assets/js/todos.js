@@ -1,8 +1,11 @@
 // check off specific todos by clicking
 $("li").click(function(){
-  $(this).css({
-    color: "grey",
-    textDecoration: "line-through",
-  });
+  $(this).toggleClass("done");
 });
 
+// select the input in the form
+
+var newTodo = $("#input").text()
+// store the input inside a variable
+
+// display the input value as a <li>
