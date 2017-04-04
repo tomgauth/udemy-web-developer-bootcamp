@@ -1,11 +1,27 @@
 // check off specific todos by clicking
-$("li").click(function(){
-  $(this).toggleClass("done");
+$("ul").on("click", "li", function(){
+  $(this).toggleClass("completed");
 });
 
-// select the input in the form
+// click on the X to delete todos
+$("ul").on("click", "span", function(event){
+  $(this).parent().fadeOut(500, function(){
+    $(this).remove();
+  });
+  // we don't want the event to apply to every element it's part of
+  // stops the event to bubble up
+  event.stopPropagation();
+})
 
-var newTodo = $("#input").text()
-// store the input inside a variable
+$("input[type='text']").keypress(function(event){
+  if (event.which === 13){
+    var toDoText = $(this).val();
+    $("input[type='text']").fadeToggle();
+    $(this).val("");
+    $("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + toDoText + "</li>");
+  }
+});
 
-// display the input value as a <li>
+$(".fa-plus").click(function(){
+  $("input[type='text']").fadeToggle();
+})
